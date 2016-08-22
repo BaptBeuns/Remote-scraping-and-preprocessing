@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import os
 import sys
-import preprocessUtils
+from utils import preprocess as preprocessUtils
 import redis
 import MySQLdb
 import logging

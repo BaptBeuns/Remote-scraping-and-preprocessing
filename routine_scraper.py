@@ -2,7 +2,7 @@
 import os
 import sys
 import redis
-import scrapUtils
+from utils import scrap as scrapUtils
 import MySQLdb
 import logging
 from logging.handlers import RotatingFileHandler
